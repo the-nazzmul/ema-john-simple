@@ -1,0 +1,38 @@
+.product{
+    width: 300px;
+    height: 510px;
+    border: 1px solid lightgray;
+    padding: 5px;
+    border-radius: 5px;
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+}
+
+.image-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.product img{
+    height: 286px;
+    width: 286px;
+    border-radius: 5px;
+}
+
+.card-info, .card-footer{
+    padding: 0 10px;
+    margin: 0;
+}
+
+p{
+    font-size: 14px;
+}
+
+.card-footer p{
+    font-size: 12px;
+}
+button{
+    height: 48px;
+    width: 100%;
+}
